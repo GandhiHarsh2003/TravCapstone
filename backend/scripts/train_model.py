@@ -20,5 +20,5 @@ print(f"MAE: {mean_absolute_error(y_test, y_pred)}")
 print(f"MSE: {mean_squared_error(y_test, y_pred)}")
 print(f"R-squared: {r2_score(y_test, y_pred)}")
 
-#with open('model.pkl', 'wb') as f:
-    #pickle.dump((model, X.columns.tolist(), f))
+with open('model.pkl', 'wb') as f:
+    pickle.dump((model, X.columns.tolist(), f))
