@@ -1,0 +1,1001 @@
+name,phone,jobRole,location,salary,managerId,role
+Employee0,612-010000,LDP Participant,CA,74981,15,HR
+Employee1,612-010001,HR,TX,80000,0,employee
+Employee2,612-010002,HR,TX,80000,9,employee
+Employee3,612-010003,Manager,CA,90000,1,employee
+Employee4,612-010004,Admin,CA,67101,19,employee
+Employee5,612-010005,LDP Participant,CT,67763,1,employee
+Employee6,612-010006,Admin,MN,72757,10,employee
+Employee7,612-010007,LDP Participant,CT,71738,20,employee
+Employee8,612-010008,LDP Participant,TX,65983,14,employee
+Employee9,612-010009,HR,NY,80000,18,employee
+Employee10,612-010010,Support,NY,68921,13,manager
+Employee11,612-010011,LDP Participant,NY,65820,2,employee
+Employee12,612-010012,Admin,MN,70743,20,employee
+Employee13,612-010013,Admin,MN,71388,3,employee
+Employee14,612-010014,Support,MN,69015,19,employee
+Employee15,612-010015,Manager,TX,90000,2,employee
+Employee16,612-010016,Admin,CT,66138,12,employee
+Employee17,612-010017,HR,NY,80000,8,employee
+Employee18,612-010018,Manager,CA,90000,18,employee
+Employee19,612-010019,Admin,CT,72239,5,employee
+Employee20,612-010020,Support,NY,68867,1,manager
+Employee21,612-010021,Manager,MN,90000,14,employee
+Employee22,612-010022,Admin,CA,65343,2,employee
+Employee23,612-010023,Support,MN,66683,2,employee
+Employee24,612-010024,Manager,TX,90000,9,employee
+Employee25,612-010025,LDP Participant,NY,66980,3,employee
+Employee26,612-010026,LDP Participant,TX,66774,4,employee
+Employee27,612-010027,HR,TX,80000,13,employee
+Employee28,612-010028,Support,NY,71541,7,employee
+Employee29,612-010029,LDP Participant,MN,73590,6,employee
+Employee30,612-010030,HR,CT,80000,5,manager
+Employee31,612-010031,HR,CA,80000,8,employee
+Employee32,612-010032,HR,MN,80000,7,employee
+Employee33,612-010033,HR,CT,80000,2,employee
+Employee34,612-010034,HR,TX,80000,19,employee
+Employee35,612-010035,Manager,CA,90000,2,employee
+Employee36,612-010036,Manager,CT,90000,7,employee
+Employee37,612-010037,Admin,CT,73096,2,employee
+Employee38,612-010038,Manager,CT,90000,3,employee
+Employee39,612-010039,Support,CA,70131,0,employee
+Employee40,612-010040,HR,CT,80000,11,manager
+Employee41,612-010041,HR,MN,80000,2,employee
+Employee42,612-010042,Manager,MN,90000,16,employee
+Employee43,612-010043,Support,CT,73411,4,employee
+Employee44,612-010044,Admin,NY,71000,20,employee
+Employee45,612-010045,Manager,TX,90000,18,employee
+Employee46,612-010046,HR,NY,80000,4,employee
+Employee47,612-010047,Manager,TX,90000,15,employee
+Employee48,612-010048,HR,MN,80000,12,employee
+Employee49,612-010049,HR,MN,80000,12,employee
+Employee50,612-010050,Manager,CT,90000,6,HR
+Employee51,612-010051,Admin,MN,65772,20,employee
+Employee52,612-010052,Admin,MN,67609,3,employee
+Employee53,612-010053,LDP Participant,CT,73790,13,employee
+Employee54,612-010054,Support,CT,67474,11,employee
+Employee55,612-010055,Manager,TX,90000,6,employee
+Employee56,612-010056,Support,CA,68623,17,employee
+Employee57,612-010057,LDP Participant,CT,72129,1,employee
+Employee58,612-010058,LDP Participant,CT,66051,4,employee
+Employee59,612-010059,Manager,NY,90000,11,employee
+Employee60,612-010060,LDP Participant,NY,67595,0,manager
+Employee61,612-010061,Support,MN,66297,12,employee
+Employee62,612-010062,Admin,MN,67003,1,employee
+Employee63,612-010063,Admin,CA,70636,1,employee
+Employee64,612-010064,Admin,TX,74835,3,employee
+Employee65,612-010065,Admin,CA,70916,17,employee
+Employee66,612-010066,Support,CA,68952,17,employee
+Employee67,612-010067,Support,CT,74475,7,employee
+Employee68,612-010068,Manager,CT,90000,5,employee
+Employee69,612-010069,Manager,NY,90000,6,employee
+Employee70,612-010070,HR,MN,80000,8,manager
+Employee71,612-010071,LDP Participant,MN,68033,12,employee
+Employee72,612-010072,LDP Participant,MN,71233,10,employee
+Employee73,612-010073,Manager,CA,90000,9,employee
+Employee74,612-010074,Admin,CA,73172,15,employee
+Employee75,612-010075,Manager,NY,90000,15,employee
+Employee76,612-010076,Support,CA,72135,18,employee
+Employee77,612-010077,HR,MN,80000,14,employee
+Employee78,612-010078,LDP Participant,CA,73101,5,employee
+Employee79,612-010079,LDP Participant,CT,69730,4,employee
+Employee80,612-010080,HR,TX,80000,11,manager
+Employee81,612-010081,Admin,CA,71279,12,employee
+Employee82,612-010082,Support,CT,70173,2,employee
+Employee83,612-010083,LDP Participant,NY,68114,2,employee
+Employee84,612-010084,Manager,TX,90000,19,employee
+Employee85,612-010085,Support,NY,71688,0,employee
+Employee86,612-010086,Manager,NY,90000,0,employee
+Employee87,612-010087,Admin,MN,72394,10,employee
+Employee88,612-010088,Manager,CA,90000,16,employee
+Employee89,612-010089,Manager,TX,90000,8,employee
+Employee90,612-010090,Admin,TX,72499,14,manager
+Employee91,612-010091,Support,CA,70914,19,employee
+Employee92,612-010092,Support,MN,71267,1,employee
+Employee93,612-010093,LDP Participant,CT,72717,5,employee
+Employee94,612-010094,HR,NY,80000,13,employee
+Employee95,612-010095,Admin,CA,71363,17,employee
+Employee96,612-010096,Support,TX,67152,10,employee
+Employee97,612-010097,Admin,TX,65963,10,employee
+Employee98,612-010098,HR,TX,80000,2,employee
+Employee99,612-010099,Manager,CT,90000,7,employee
+Employee100,612-010100,Support,CT,68773,15,HR
+Employee101,612-010101,HR,CT,80000,14,employee
+Employee102,612-010102,HR,TX,80000,9,employee
+Employee103,612-010103,LDP Participant,TX,67562,19,employee
+Employee104,612-010104,LDP Participant,TX,71888,9,employee
+Employee105,612-010105,Support,NY,72816,13,employee
+Employee106,612-010106,Admin,CT,74623,5,employee
+Employee107,612-010107,Manager,TX,90000,8,employee
+Employee108,612-010108,Manager,NY,90000,11,employee
+Employee109,612-010109,Manager,NY,90000,12,employee
+Employee110,612-010110,LDP Participant,CT,70832,15,manager
+Employee111,612-010111,HR,TX,80000,12,employee
+Employee112,612-010112,Admin,MN,70492,2,employee
+Employee113,612-010113,Admin,TX,71289,14,employee
+Employee114,612-010114,Support,CT,67619,7,employee
+Employee115,612-010115,HR,CT,80000,20,employee
+Employee116,612-010116,LDP Participant,NY,72801,2,employee
+Employee117,612-010117,Admin,TX,73017,6,employee
+Employee118,612-010118,Admin,MN,70804,10,employee
+Employee119,612-010119,Manager,CT,90000,0,employee
+Employee120,612-010120,Support,NY,67270,18,manager
+Employee121,612-010121,LDP Participant,CA,66429,12,employee
+Employee122,612-010122,LDP Participant,CT,65382,8,employee
+Employee123,612-010123,LDP Participant,MN,73705,3,employee
+Employee124,612-010124,LDP Participant,CT,68965,5,employee
+Employee125,612-010125,LDP Participant,TX,70610,3,employee
+Employee126,612-010126,Admin,NY,66132,1,employee
+Employee127,612-010127,Support,NY,67539,9,employee
+Employee128,612-010128,Admin,TX,68156,1,employee
+Employee129,612-010129,Support,CT,67031,6,employee
+Employee130,612-010130,Manager,NY,90000,18,manager
+Employee131,612-010131,Manager,CA,90000,8,employee
+Employee132,612-010132,Manager,NY,90000,5,employee
+Employee133,612-010133,Manager,CT,90000,15,employee
+Employee134,612-010134,Manager,CA,90000,15,employee
+Employee135,612-010135,HR,MN,80000,16,employee
+Employee136,612-010136,Support,TX,68929,4,employee
+Employee137,612-010137,LDP Participant,MN,69420,19,employee
+Employee138,612-010138,Support,MN,69931,3,employee
+Employee139,612-010139,LDP Participant,MN,66206,4,employee
+Employee140,612-010140,Support,TX,74931,18,manager
+Employee141,612-010141,LDP Participant,NY,71669,14,employee
+Employee142,612-010142,Admin,NY,70593,0,employee
+Employee143,612-010143,Admin,CT,72097,15,employee
+Employee144,612-010144,Manager,MN,90000,13,employee
+Employee145,612-010145,Support,TX,74006,7,employee
+Employee146,612-010146,Manager,CA,90000,15,employee
+Employee147,612-010147,Manager,MN,90000,8,employee
+Employee148,612-010148,Manager,CT,90000,11,employee
+Employee149,612-010149,Support,MN,68547,19,employee
+Employee150,612-010150,LDP Participant,TX,73683,19,HR
+Employee151,612-010151,HR,MN,80000,10,employee
+Employee152,612-010152,Support,CT,73523,8,employee
+Employee153,612-010153,Admin,CT,72754,10,employee
+Employee154,612-010154,Manager,CT,90000,14,employee
+Employee155,612-010155,HR,NY,80000,6,employee
+Employee156,612-010156,LDP Participant,CA,68998,8,employee
+Employee157,612-010157,Manager,TX,90000,10,employee
+Employee158,612-010158,Admin,CA,65043,9,employee
+Employee159,612-010159,Manager,NY,90000,14,employee
+Employee160,612-010160,Admin,TX,73510,3,manager
+Employee161,612-010161,LDP Participant,MN,67934,18,employee
+Employee162,612-010162,Support,NY,66735,10,employee
+Employee163,612-010163,LDP Participant,TX,65357,2,employee
+Employee164,612-010164,LDP Participant,MN,69851,16,employee
+Employee165,612-010165,LDP Participant,TX,71264,9,employee
+Employee166,612-010166,LDP Participant,TX,68192,0,employee
+Employee167,612-010167,Admin,MN,74776,5,employee
+Employee168,612-010168,Support,NY,74939,10,employee
+Employee169,612-010169,LDP Participant,MN,69934,13,employee
+Employee170,612-010170,LDP Participant,CA,74573,17,manager
+Employee171,612-010171,Admin,CT,68743,1,employee
+Employee172,612-010172,Admin,MN,71645,20,employee
+Employee173,612-010173,Admin,TX,73326,6,employee
+Employee174,612-010174,Manager,CA,90000,15,employee
+Employee175,612-010175,Manager,MN,90000,18,employee
+Employee176,612-010176,LDP Participant,TX,66626,8,employee
+Employee177,612-010177,Support,CA,73593,11,employee
+Employee178,612-010178,Support,NY,65885,13,employee
+Employee179,612-010179,HR,CA,80000,19,employee
+Employee180,612-010180,Support,TX,73246,3,manager
+Employee181,612-010181,Admin,CT,66017,20,employee
+Employee182,612-010182,Manager,MN,90000,12,employee
+Employee183,612-010183,HR,NY,80000,10,employee
+Employee184,612-010184,LDP Participant,CT,65273,11,employee
+Employee185,612-010185,Support,MN,65526,20,employee
+Employee186,612-010186,LDP Participant,TX,66596,8,employee
+Employee187,612-010187,Admin,TX,70293,1,employee
+Employee188,612-010188,Admin,NY,66174,0,employee
+Employee189,612-010189,LDP Participant,TX,72262,16,employee
+Employee190,612-010190,Support,TX,69713,2,manager
+Employee191,612-010191,HR,TX,80000,14,employee
+Employee192,612-010192,Admin,CT,73683,7,employee
+Employee193,612-010193,HR,CA,80000,7,employee
+Employee194,612-010194,Admin,CT,67888,7,employee
+Employee195,612-010195,Manager,TX,90000,6,employee
+Employee196,612-010196,HR,CA,80000,18,employee
+Employee197,612-010197,LDP Participant,TX,71337,2,employee
+Employee198,612-010198,Manager,CT,90000,1,employee
+Employee199,612-010199,Manager,CT,90000,15,employee
+Employee200,612-010200,Support,MN,69708,13,HR
+Employee201,612-010201,Admin,MN,65541,1,employee
+Employee202,612-010202,Manager,NY,90000,4,employee
+Employee203,612-010203,HR,NY,80000,17,employee
+Employee204,612-010204,Admin,MN,67707,1,employee
+Employee205,612-010205,HR,NY,80000,3,employee
+Employee206,612-010206,HR,NY,80000,8,employee
+Employee207,612-010207,HR,NY,80000,18,employee
+Employee208,612-010208,LDP Participant,CT,74141,8,employee
+Employee209,612-010209,Admin,CT,69770,2,employee
+Employee210,612-010210,LDP Participant,CA,73538,17,manager
+Employee211,612-010211,Support,TX,69952,1,employee
+Employee212,612-010212,HR,NY,80000,17,employee
+Employee213,612-010213,Support,TX,69228,1,employee
+Employee214,612-010214,Manager,CA,90000,18,employee
+Employee215,612-010215,Manager,CT,90000,8,employee
+Employee216,612-010216,Support,NY,66617,11,employee
+Employee217,612-010217,Manager,NY,90000,1,employee
+Employee218,612-010218,HR,CT,80000,16,employee
+Employee219,612-010219,Admin,CT,70749,6,employee
+Employee220,612-010220,HR,CT,80000,11,manager
+Employee221,612-010221,Admin,CT,66988,5,employee
+Employee222,612-010222,Manager,TX,90000,3,employee
+Employee223,612-010223,HR,CT,80000,4,employee
+Employee224,612-010224,HR,CT,80000,13,employee
+Employee225,612-010225,Support,CT,67279,11,employee
+Employee226,612-010226,Manager,TX,90000,6,employee
+Employee227,612-010227,Manager,CA,90000,13,employee
+Employee228,612-010228,Support,TX,70626,6,employee
+Employee229,612-010229,HR,MN,80000,0,employee
+Employee230,612-010230,LDP Participant,CA,69406,0,manager
+Employee231,612-010231,Support,TX,68210,10,employee
+Employee232,612-010232,Support,MN,67940,1,employee
+Employee233,612-010233,Manager,CA,90000,11,employee
+Employee234,612-010234,Manager,NY,90000,7,employee
+Employee235,612-010235,Manager,CA,90000,2,employee
+Employee236,612-010236,Admin,NY,70908,16,employee
+Employee237,612-010237,Support,TX,66111,12,employee
+Employee238,612-010238,Admin,TX,74441,5,employee
+Employee239,612-010239,Manager,CA,90000,20,employee
+Employee240,612-010240,Support,NY,67305,19,manager
+Employee241,612-010241,Support,MN,65729,15,employee
+Employee242,612-010242,HR,TX,80000,20,employee
+Employee243,612-010243,HR,NY,80000,17,employee
+Employee244,612-010244,LDP Participant,CT,72849,7,employee
+Employee245,612-010245,Support,NY,72429,8,employee
+Employee246,612-010246,LDP Participant,TX,74393,11,employee
+Employee247,612-010247,HR,TX,80000,6,employee
+Employee248,612-010248,HR,TX,80000,7,employee
+Employee249,612-010249,Manager,CT,90000,1,employee
+Employee250,612-010250,Admin,CT,67435,8,HR
+Employee251,612-010251,LDP Participant,TX,66121,12,employee
+Employee252,612-010252,Manager,MN,90000,1,employee
+Employee253,612-010253,HR,MN,80000,13,employee
+Employee254,612-010254,LDP Participant,NY,67250,13,employee
+Employee255,612-010255,Admin,NY,72435,0,employee
+Employee256,612-010256,Support,CA,68973,13,employee
+Employee257,612-010257,Manager,CA,90000,14,employee
+Employee258,612-010258,HR,CA,80000,16,employee
+Employee259,612-010259,Support,NY,65519,1,employee
+Employee260,612-010260,Admin,CT,71503,6,manager
+Employee261,612-010261,Admin,MN,68670,12,employee
+Employee262,612-010262,HR,CA,80000,11,employee
+Employee263,612-010263,HR,MN,80000,14,employee
+Employee264,612-010264,LDP Participant,MN,66384,1,employee
+Employee265,612-010265,LDP Participant,CT,73637,18,employee
+Employee266,612-010266,Support,NY,70370,2,employee
+Employee267,612-010267,Admin,CA,66602,17,employee
+Employee268,612-010268,LDP Participant,TX,70094,8,employee
+Employee269,612-010269,HR,TX,80000,5,employee
+Employee270,612-010270,HR,TX,80000,5,manager
+Employee271,612-010271,LDP Participant,TX,73719,14,employee
+Employee272,612-010272,HR,CA,80000,19,employee
+Employee273,612-010273,Manager,CT,90000,10,employee
+Employee274,612-010274,Support,CA,71461,3,employee
+Employee275,612-010275,Admin,CA,67687,19,employee
+Employee276,612-010276,HR,MN,80000,8,employee
+Employee277,612-010277,Manager,CA,90000,12,employee
+Employee278,612-010278,HR,CT,80000,12,employee
+Employee279,612-010279,Support,CT,68894,8,employee
+Employee280,612-010280,HR,MN,80000,20,manager
+Employee281,612-010281,Admin,CA,71804,20,employee
+Employee282,612-010282,Support,MN,74374,14,employee
+Employee283,612-010283,Manager,NY,90000,2,employee
+Employee284,612-010284,Admin,MN,68999,4,employee
+Employee285,612-010285,Admin,CT,74853,15,employee
+Employee286,612-010286,Manager,CT,90000,1,employee
+Employee287,612-010287,Admin,CT,70815,12,employee
+Employee288,612-010288,Support,CT,68010,2,employee
+Employee289,612-010289,Support,CA,70919,12,employee
+Employee290,612-010290,Manager,CA,90000,9,manager
+Employee291,612-010291,Manager,CA,90000,16,employee
+Employee292,612-010292,HR,TX,80000,20,employee
+Employee293,612-010293,LDP Participant,CT,73342,1,employee
+Employee294,612-010294,Support,NY,65834,6,employee
+Employee295,612-010295,LDP Participant,MN,71039,6,employee
+Employee296,612-010296,HR,CT,80000,4,employee
+Employee297,612-010297,Admin,TX,65107,20,employee
+Employee298,612-010298,Manager,CA,90000,0,employee
+Employee299,612-010299,Support,NY,71598,14,employee
+Employee300,612-010300,Support,TX,68952,5,HR
+Employee301,612-010301,Admin,NY,65432,7,employee
+Employee302,612-010302,LDP Participant,TX,74533,4,employee
+Employee303,612-010303,HR,CA,80000,17,employee
+Employee304,612-010304,HR,NY,80000,17,employee
+Employee305,612-010305,Manager,NY,90000,6,employee
+Employee306,612-010306,HR,CA,80000,9,employee
+Employee307,612-010307,HR,MN,80000,7,employee
+Employee308,612-010308,LDP Participant,NY,70421,0,employee
+Employee309,612-010309,Admin,TX,66894,0,employee
+Employee310,612-010310,Manager,CA,90000,3,manager
+Employee311,612-010311,LDP Participant,MN,68751,6,employee
+Employee312,612-010312,Manager,TX,90000,4,employee
+Employee313,612-010313,Admin,NY,72759,16,employee
+Employee314,612-010314,Manager,MN,90000,2,employee
+Employee315,612-010315,HR,MN,80000,15,employee
+Employee316,612-010316,Admin,NY,70484,14,employee
+Employee317,612-010317,Admin,MN,69896,13,employee
+Employee318,612-010318,Support,MN,72210,20,employee
+Employee319,612-010319,Admin,CA,67651,20,employee
+Employee320,612-010320,Support,MN,74332,10,manager
+Employee321,612-010321,Support,NY,73112,11,employee
+Employee322,612-010322,Manager,MN,90000,20,employee
+Employee323,612-010323,Manager,NY,90000,19,employee
+Employee324,612-010324,Manager,CT,90000,14,employee
+Employee325,612-010325,Manager,CT,90000,4,employee
+Employee326,612-010326,LDP Participant,MN,74176,20,employee
+Employee327,612-010327,Manager,CT,90000,10,employee
+Employee328,612-010328,HR,CT,80000,10,employee
+Employee329,612-010329,Admin,TX,71128,15,employee
+Employee330,612-010330,Manager,TX,90000,13,manager
+Employee331,612-010331,Manager,CA,90000,0,employee
+Employee332,612-010332,Manager,TX,90000,16,employee
+Employee333,612-010333,LDP Participant,MN,71400,3,employee
+Employee334,612-010334,Support,CA,68598,2,employee
+Employee335,612-010335,Admin,TX,68093,6,employee
+Employee336,612-010336,LDP Participant,TX,73411,13,employee
+Employee337,612-010337,HR,NY,80000,14,employee
+Employee338,612-010338,LDP Participant,MN,66576,11,employee
+Employee339,612-010339,HR,CA,80000,13,employee
+Employee340,612-010340,Support,CA,66831,6,manager
+Employee341,612-010341,Manager,TX,90000,1,employee
+Employee342,612-010342,LDP Participant,TX,69188,3,employee
+Employee343,612-010343,Manager,TX,90000,5,employee
+Employee344,612-010344,Support,CT,65549,11,employee
+Employee345,612-010345,LDP Participant,CT,70359,12,employee
+Employee346,612-010346,HR,CA,80000,5,employee
+Employee347,612-010347,Admin,CT,70970,5,employee
+Employee348,612-010348,HR,MN,80000,3,employee
+Employee349,612-010349,Manager,CT,90000,3,employee
+Employee350,612-010350,LDP Participant,CA,70535,20,HR
+Employee351,612-010351,Manager,TX,90000,11,employee
+Employee352,612-010352,HR,MN,80000,2,employee
+Employee353,612-010353,LDP Participant,MN,67465,6,employee
+Employee354,612-010354,Admin,MN,65802,2,employee
+Employee355,612-010355,Admin,CT,71174,17,employee
+Employee356,612-010356,LDP Participant,MN,67479,9,employee
+Employee357,612-010357,Admin,MN,71446,3,employee
+Employee358,612-010358,Admin,CA,72231,15,employee
+Employee359,612-010359,HR,NY,80000,5,employee
+Employee360,612-010360,Support,CT,68522,0,manager
+Employee361,612-010361,Manager,NY,90000,15,employee
+Employee362,612-010362,Manager,NY,90000,7,employee
+Employee363,612-010363,Support,MN,74445,13,employee
+Employee364,612-010364,HR,CT,80000,18,employee
+Employee365,612-010365,Manager,CT,90000,19,employee
+Employee366,612-010366,Manager,MN,90000,20,employee
+Employee367,612-010367,LDP Participant,CT,69776,13,employee
+Employee368,612-010368,Manager,NY,90000,6,employee
+Employee369,612-010369,LDP Participant,CT,70726,0,employee
+Employee370,612-010370,Manager,CA,90000,17,manager
+Employee371,612-010371,Support,CT,68340,19,employee
+Employee372,612-010372,Admin,CA,71251,1,employee
+Employee373,612-010373,Admin,CT,69874,5,employee
+Employee374,612-010374,Admin,CA,73504,9,employee
+Employee375,612-010375,HR,MN,80000,10,employee
+Employee376,612-010376,Support,MN,72335,16,employee
+Employee377,612-010377,Admin,MN,74032,7,employee
+Employee378,612-010378,LDP Participant,TX,67513,7,employee
+Employee379,612-010379,Support,TX,68732,3,employee
+Employee380,612-010380,LDP Participant,CT,66523,19,manager
+Employee381,612-010381,HR,CT,80000,16,employee
+Employee382,612-010382,LDP Participant,TX,65314,0,employee
+Employee383,612-010383,Admin,MN,73980,4,employee
+Employee384,612-010384,Support,TX,68808,8,employee
+Employee385,612-010385,HR,CA,80000,12,employee
+Employee386,612-010386,Admin,CT,66967,9,employee
+Employee387,612-010387,Manager,NY,90000,8,employee
+Employee388,612-010388,Manager,NY,90000,10,employee
+Employee389,612-010389,HR,MN,80000,14,employee
+Employee390,612-010390,Admin,MN,71321,0,manager
+Employee391,612-010391,Manager,MN,90000,0,employee
+Employee392,612-010392,Admin,MN,73027,10,employee
+Employee393,612-010393,HR,MN,80000,10,employee
+Employee394,612-010394,Support,CT,66060,11,employee
+Employee395,612-010395,LDP Participant,CT,71660,5,employee
+Employee396,612-010396,Manager,TX,90000,17,employee
+Employee397,612-010397,LDP Participant,CT,70727,3,employee
+Employee398,612-010398,LDP Participant,MN,67226,19,employee
+Employee399,612-010399,HR,MN,80000,12,employee
+Employee400,612-010400,LDP Participant,TX,72546,5,HR
+Employee401,612-010401,HR,TX,80000,0,employee
+Employee402,612-010402,LDP Participant,CT,70238,1,employee
+Employee403,612-010403,LDP Participant,NY,67923,4,employee
+Employee404,612-010404,Admin,CA,71818,18,employee
+Employee405,612-010405,Admin,CA,66906,4,employee
+Employee406,612-010406,HR,CA,80000,17,employee
+Employee407,612-010407,Support,MN,70055,15,employee
+Employee408,612-010408,HR,CT,80000,8,employee
+Employee409,612-010409,Support,CT,66877,13,employee
+Employee410,612-010410,Manager,TX,90000,12,manager
+Employee411,612-010411,HR,NY,80000,11,employee
+Employee412,612-010412,Support,MN,68365,8,employee
+Employee413,612-010413,Support,TX,68165,14,employee
+Employee414,612-010414,HR,TX,80000,20,employee
+Employee415,612-010415,Admin,MN,67278,4,employee
+Employee416,612-010416,LDP Participant,NY,74249,13,employee
+Employee417,612-010417,Admin,CA,66604,2,employee
+Employee418,612-010418,HR,TX,80000,17,employee
+Employee419,612-010419,HR,CA,80000,13,employee
+Employee420,612-010420,LDP Participant,TX,72883,20,manager
+Employee421,612-010421,Support,TX,70255,16,employee
+Employee422,612-010422,Support,NY,67104,8,employee
+Employee423,612-010423,LDP Participant,CT,72636,8,employee
+Employee424,612-010424,Manager,CA,90000,14,employee
+Employee425,612-010425,Support,TX,71994,1,employee
+Employee426,612-010426,LDP Participant,CA,67447,12,employee
+Employee427,612-010427,HR,TX,80000,18,employee
+Employee428,612-010428,Manager,CA,90000,12,employee
+Employee429,612-010429,Admin,TX,67891,10,employee
+Employee430,612-010430,Support,CT,66315,10,manager
+Employee431,612-010431,LDP Participant,NY,74467,19,employee
+Employee432,612-010432,LDP Participant,CA,66862,19,employee
+Employee433,612-010433,LDP Participant,NY,65019,9,employee
+Employee434,612-010434,Manager,NY,90000,12,employee
+Employee435,612-010435,Support,CA,66233,14,employee
+Employee436,612-010436,LDP Participant,CA,67258,13,employee
+Employee437,612-010437,LDP Participant,CA,66751,16,employee
+Employee438,612-010438,Support,MN,74977,19,employee
+Employee439,612-010439,Manager,CT,90000,11,employee
+Employee440,612-010440,Manager,MN,90000,1,manager
+Employee441,612-010441,Admin,MN,68400,11,employee
+Employee442,612-010442,Support,NY,70368,15,employee
+Employee443,612-010443,Admin,MN,71962,8,employee
+Employee444,612-010444,Manager,NY,90000,6,employee
+Employee445,612-010445,Manager,CT,90000,10,employee
+Employee446,612-010446,Admin,NY,72463,0,employee
+Employee447,612-010447,LDP Participant,CT,69265,0,employee
+Employee448,612-010448,Manager,NY,90000,12,employee
+Employee449,612-010449,Support,NY,68009,16,employee
+Employee450,612-010450,Manager,CA,90000,3,HR
+Employee451,612-010451,Support,TX,68843,12,employee
+Employee452,612-010452,Admin,CT,74470,11,employee
+Employee453,612-010453,LDP Participant,CT,65550,5,employee
+Employee454,612-010454,LDP Participant,NY,68248,10,employee
+Employee455,612-010455,Manager,CA,90000,8,employee
+Employee456,612-010456,Manager,CA,90000,11,employee
+Employee457,612-010457,Admin,MN,66218,8,employee
+Employee458,612-010458,LDP Participant,NY,70403,10,employee
+Employee459,612-010459,Admin,NY,69923,11,employee
+Employee460,612-010460,Admin,MN,68706,13,manager
+Employee461,612-010461,LDP Participant,MN,67452,15,employee
+Employee462,612-010462,Support,TX,66242,8,employee
+Employee463,612-010463,Admin,NY,66828,1,employee
+Employee464,612-010464,LDP Participant,TX,69388,16,employee
+Employee465,612-010465,Manager,TX,90000,14,employee
+Employee466,612-010466,Support,TX,74510,10,employee
+Employee467,612-010467,LDP Participant,CT,70205,20,employee
+Employee468,612-010468,Support,NY,70733,15,employee
+Employee469,612-010469,Admin,MN,69137,16,employee
+Employee470,612-010470,HR,CA,80000,1,manager
+Employee471,612-010471,HR,CA,80000,5,employee
+Employee472,612-010472,Admin,NY,67134,0,employee
+Employee473,612-010473,HR,CT,80000,18,employee
+Employee474,612-010474,Manager,MN,90000,18,employee
+Employee475,612-010475,Manager,CA,90000,9,employee
+Employee476,612-010476,LDP Participant,TX,67374,18,employee
+Employee477,612-010477,Admin,CT,70005,6,employee
+Employee478,612-010478,Admin,MN,68533,15,employee
+Employee479,612-010479,LDP Participant,NY,74239,9,employee
+Employee480,612-010480,Manager,TX,90000,17,manager
+Employee481,612-010481,HR,CA,80000,2,employee
+Employee482,612-010482,HR,NY,80000,12,employee
+Employee483,612-010483,Support,MN,73519,12,employee
+Employee484,612-010484,Manager,CA,90000,10,employee
+Employee485,612-010485,HR,NY,80000,17,employee
+Employee486,612-010486,Manager,MN,90000,18,employee
+Employee487,612-010487,Admin,TX,71326,15,employee
+Employee488,612-010488,Support,CT,72073,0,employee
+Employee489,612-010489,Manager,CA,90000,12,employee
+Employee490,612-010490,Admin,MN,65411,18,manager
+Employee491,612-010491,Manager,CT,90000,19,employee
+Employee492,612-010492,LDP Participant,CT,73909,6,employee
+Employee493,612-010493,Support,MN,73406,7,employee
+Employee494,612-010494,Support,MN,69354,14,employee
+Employee495,612-010495,Support,MN,74206,19,employee
+Employee496,612-010496,Admin,TX,66855,13,employee
+Employee497,612-010497,LDP Participant,TX,70440,4,employee
+Employee498,612-010498,Support,CA,66375,16,employee
+Employee499,612-010499,Manager,CA,90000,8,employee
+Employee500,612-010500,Manager,CA,90000,5,HR
+Employee501,612-010501,Admin,CA,74601,9,employee
+Employee502,612-010502,Support,CA,68471,10,employee
+Employee503,612-010503,Admin,CT,74028,7,employee
+Employee504,612-010504,HR,CT,80000,1,employee
+Employee505,612-010505,Admin,CT,73263,4,employee
+Employee506,612-010506,Admin,CA,68226,5,employee
+Employee507,612-010507,HR,CT,80000,11,employee
+Employee508,612-010508,HR,CT,80000,1,employee
+Employee509,612-010509,Support,TX,73625,13,employee
+Employee510,612-010510,Support,MN,71498,9,manager
+Employee511,612-010511,HR,TX,80000,12,employee
+Employee512,612-010512,Manager,NY,90000,10,employee
+Employee513,612-010513,Support,CA,74450,1,employee
+Employee514,612-010514,Support,CA,65108,3,employee
+Employee515,612-010515,Support,TX,72475,0,employee
+Employee516,612-010516,LDP Participant,NY,70949,20,employee
+Employee517,612-010517,Admin,CA,71655,14,employee
+Employee518,612-010518,Manager,MN,90000,13,employee
+Employee519,612-010519,Manager,CT,90000,2,employee
+Employee520,612-010520,Support,CA,72670,15,manager
+Employee521,612-010521,Admin,MN,66699,6,employee
+Employee522,612-010522,Support,CT,68361,4,employee
+Employee523,612-010523,HR,NY,80000,3,employee
+Employee524,612-010524,Manager,MN,90000,8,employee
+Employee525,612-010525,LDP Participant,NY,74659,20,employee
+Employee526,612-010526,Support,CT,67402,19,employee
+Employee527,612-010527,HR,NY,80000,16,employee
+Employee528,612-010528,Admin,CT,73685,0,employee
+Employee529,612-010529,Admin,MN,72445,8,employee
+Employee530,612-010530,Support,CA,72882,2,manager
+Employee531,612-010531,Support,MN,66887,5,employee
+Employee532,612-010532,Support,CT,67071,11,employee
+Employee533,612-010533,Admin,CA,70128,16,employee
+Employee534,612-010534,LDP Participant,NY,72005,1,employee
+Employee535,612-010535,Admin,NY,70398,1,employee
+Employee536,612-010536,Manager,CT,90000,0,employee
+Employee537,612-010537,Support,CT,73041,18,employee
+Employee538,612-010538,LDP Participant,NY,66534,2,employee
+Employee539,612-010539,Admin,CA,73725,18,employee
+Employee540,612-010540,HR,CT,80000,9,manager
+Employee541,612-010541,HR,TX,80000,6,employee
+Employee542,612-010542,LDP Participant,NY,66513,7,employee
+Employee543,612-010543,Support,TX,71114,4,employee
+Employee544,612-010544,Manager,TX,90000,10,employee
+Employee545,612-010545,LDP Participant,CT,67971,2,employee
+Employee546,612-010546,LDP Participant,MN,69717,15,employee
+Employee547,612-010547,HR,MN,80000,11,employee
+Employee548,612-010548,LDP Participant,TX,71919,1,employee
+Employee549,612-010549,Support,MN,65981,11,employee
+Employee550,612-010550,Admin,MN,70504,17,HR
+Employee551,612-010551,Manager,CA,90000,20,employee
+Employee552,612-010552,Support,MN,66566,16,employee
+Employee553,612-010553,Support,CT,68126,10,employee
+Employee554,612-010554,LDP Participant,TX,74671,2,employee
+Employee555,612-010555,Manager,CA,90000,4,employee
+Employee556,612-010556,HR,TX,80000,17,employee
+Employee557,612-010557,Support,NY,73641,2,employee
+Employee558,612-010558,Admin,MN,73127,3,employee
+Employee559,612-010559,HR,NY,80000,14,employee
+Employee560,612-010560,Support,NY,68541,19,manager
+Employee561,612-010561,Manager,TX,90000,18,employee
+Employee562,612-010562,LDP Participant,MN,67742,10,employee
+Employee563,612-010563,LDP Participant,MN,72416,19,employee
+Employee564,612-010564,HR,CT,80000,3,employee
+Employee565,612-010565,LDP Participant,MN,74788,4,employee
+Employee566,612-010566,Manager,TX,90000,18,employee
+Employee567,612-010567,LDP Participant,CA,74159,18,employee
+Employee568,612-010568,LDP Participant,MN,65564,9,employee
+Employee569,612-010569,Support,CA,69663,14,employee
+Employee570,612-010570,Manager,MN,90000,2,manager
+Employee571,612-010571,Admin,TX,69303,3,employee
+Employee572,612-010572,HR,MN,80000,1,employee
+Employee573,612-010573,Admin,CA,73187,10,employee
+Employee574,612-010574,LDP Participant,TX,71013,15,employee
+Employee575,612-010575,LDP Participant,TX,66602,17,employee
+Employee576,612-010576,Manager,CA,90000,17,employee
+Employee577,612-010577,Manager,CA,90000,7,employee
+Employee578,612-010578,HR,MN,80000,15,employee
+Employee579,612-010579,HR,NY,80000,1,employee
+Employee580,612-010580,Admin,CA,65989,15,manager
+Employee581,612-010581,Manager,CT,90000,19,employee
+Employee582,612-010582,LDP Participant,CA,67861,14,employee
+Employee583,612-010583,Manager,TX,90000,19,employee
+Employee584,612-010584,Manager,MN,90000,18,employee
+Employee585,612-010585,LDP Participant,CA,67596,8,employee
+Employee586,612-010586,LDP Participant,MN,73610,6,employee
+Employee587,612-010587,HR,CT,80000,18,employee
+Employee588,612-010588,LDP Participant,TX,65734,16,employee
+Employee589,612-010589,Support,CT,67771,18,employee
+Employee590,612-010590,LDP Participant,CA,68782,6,manager
+Employee591,612-010591,LDP Participant,MN,65287,10,employee
+Employee592,612-010592,LDP Participant,NY,69510,3,employee
+Employee593,612-010593,Admin,CA,68973,18,employee
+Employee594,612-010594,LDP Participant,NY,73696,12,employee
+Employee595,612-010595,Support,TX,71118,2,employee
+Employee596,612-010596,HR,CT,80000,18,employee
+Employee597,612-010597,Admin,CA,67090,18,employee
+Employee598,612-010598,Manager,CA,90000,12,employee
+Employee599,612-010599,HR,CT,80000,13,employee
+Employee600,612-010600,Manager,TX,90000,6,HR
+Employee601,612-010601,Manager,TX,90000,19,employee
+Employee602,612-010602,HR,TX,80000,4,employee
+Employee603,612-010603,Support,CT,66252,20,employee
+Employee604,612-010604,Support,CT,68728,4,employee
+Employee605,612-010605,HR,NY,80000,18,employee
+Employee606,612-010606,Admin,MN,74871,9,employee
+Employee607,612-010607,Admin,TX,72886,2,employee
+Employee608,612-010608,Manager,MN,90000,1,employee
+Employee609,612-010609,Manager,CA,90000,13,employee
+Employee610,612-010610,Manager,CA,90000,11,manager
+Employee611,612-010611,LDP Participant,CT,69219,0,employee
+Employee612,612-010612,Manager,NY,90000,16,employee
+Employee613,612-010613,HR,NY,80000,7,employee
+Employee614,612-010614,Manager,TX,90000,5,employee
+Employee615,612-010615,HR,MN,80000,9,employee
+Employee616,612-010616,HR,NY,80000,10,employee
+Employee617,612-010617,Support,CA,66357,4,employee
+Employee618,612-010618,Support,TX,74520,15,employee
+Employee619,612-010619,Manager,CA,90000,10,employee
+Employee620,612-010620,Support,NY,73369,11,manager
+Employee621,612-010621,LDP Participant,TX,66281,13,employee
+Employee622,612-010622,Manager,TX,90000,11,employee
+Employee623,612-010623,HR,MN,80000,12,employee
+Employee624,612-010624,Support,NY,67310,16,employee
+Employee625,612-010625,HR,CA,80000,2,employee
+Employee626,612-010626,HR,MN,80000,3,employee
+Employee627,612-010627,Support,NY,74373,12,employee
+Employee628,612-010628,Admin,TX,67640,13,employee
+Employee629,612-010629,Support,CA,66229,7,employee
+Employee630,612-010630,LDP Participant,TX,72099,8,manager
+Employee631,612-010631,Support,NY,67525,18,employee
+Employee632,612-010632,Manager,CA,90000,3,employee
+Employee633,612-010633,Admin,CT,74761,0,employee
+Employee634,612-010634,Manager,NY,90000,14,employee
+Employee635,612-010635,Admin,NY,72090,1,employee
+Employee636,612-010636,Admin,CA,70027,15,employee
+Employee637,612-010637,LDP Participant,CA,66768,14,employee
+Employee638,612-010638,HR,CT,80000,4,employee
+Employee639,612-010639,Support,MN,71617,0,employee
+Employee640,612-010640,Admin,CT,72274,14,manager
+Employee641,612-010641,Admin,CA,70572,19,employee
+Employee642,612-010642,Admin,CA,66712,9,employee
+Employee643,612-010643,LDP Participant,CT,68231,4,employee
+Employee644,612-010644,Support,NY,73899,9,employee
+Employee645,612-010645,Manager,CA,90000,3,employee
+Employee646,612-010646,HR,MN,80000,13,employee
+Employee647,612-010647,Support,CA,69139,12,employee
+Employee648,612-010648,LDP Participant,TX,70458,11,employee
+Employee649,612-010649,HR,NY,80000,0,employee
+Employee650,612-010650,Support,NY,73796,11,HR
+Employee651,612-010651,Admin,CA,73740,0,employee
+Employee652,612-010652,Admin,MN,69940,20,employee
+Employee653,612-010653,LDP Participant,TX,66297,18,employee
+Employee654,612-010654,HR,NY,80000,3,employee
+Employee655,612-010655,Support,MN,71200,17,employee
+Employee656,612-010656,HR,NY,80000,7,employee
+Employee657,612-010657,Manager,CA,90000,8,employee
+Employee658,612-010658,HR,CA,80000,5,employee
+Employee659,612-010659,Admin,TX,68417,19,employee
+Employee660,612-010660,HR,CT,80000,16,manager
+Employee661,612-010661,Admin,CT,66313,3,employee
+Employee662,612-010662,Support,TX,67174,14,employee
+Employee663,612-010663,Manager,NY,90000,9,employee
+Employee664,612-010664,HR,CA,80000,0,employee
+Employee665,612-010665,Support,TX,68455,18,employee
+Employee666,612-010666,Support,TX,71584,4,employee
+Employee667,612-010667,Support,TX,71352,7,employee
+Employee668,612-010668,Manager,NY,90000,10,employee
+Employee669,612-010669,HR,NY,80000,14,employee
+Employee670,612-010670,LDP Participant,CT,65228,16,manager
+Employee671,612-010671,Manager,NY,90000,1,employee
+Employee672,612-010672,Manager,TX,90000,15,employee
+Employee673,612-010673,LDP Participant,CA,67685,14,employee
+Employee674,612-010674,LDP Participant,NY,68997,13,employee
+Employee675,612-010675,Support,MN,65609,2,employee
+Employee676,612-010676,Admin,NY,67452,5,employee
+Employee677,612-010677,Manager,MN,90000,5,employee
+Employee678,612-010678,Support,MN,72882,1,employee
+Employee679,612-010679,LDP Participant,MN,72577,6,employee
+Employee680,612-010680,Admin,CT,71912,9,manager
+Employee681,612-010681,Support,MN,72654,20,employee
+Employee682,612-010682,Admin,MN,66343,3,employee
+Employee683,612-010683,Admin,CA,66172,1,employee
+Employee684,612-010684,HR,MN,80000,16,employee
+Employee685,612-010685,HR,CT,80000,12,employee
+Employee686,612-010686,Support,CT,68170,1,employee
+Employee687,612-010687,HR,CA,80000,9,employee
+Employee688,612-010688,HR,CT,80000,14,employee
+Employee689,612-010689,Manager,TX,90000,17,employee
+Employee690,612-010690,LDP Participant,MN,65926,2,manager
+Employee691,612-010691,Manager,MN,90000,12,employee
+Employee692,612-010692,Support,NY,68260,20,employee
+Employee693,612-010693,LDP Participant,NY,74154,7,employee
+Employee694,612-010694,LDP Participant,NY,67441,3,employee
+Employee695,612-010695,Manager,NY,90000,18,employee
+Employee696,612-010696,LDP Participant,NY,68522,1,employee
+Employee697,612-010697,Admin,TX,73752,16,employee
+Employee698,612-010698,Admin,CT,66434,7,employee
+Employee699,612-010699,LDP Participant,MN,73786,6,employee
+Employee700,612-010700,HR,CT,80000,17,HR
+Employee701,612-010701,Support,CA,69164,18,employee
+Employee702,612-010702,Manager,MN,90000,8,employee
+Employee703,612-010703,Support,MN,72566,18,employee
+Employee704,612-010704,HR,CA,80000,1,employee
+Employee705,612-010705,LDP Participant,TX,73502,1,employee
+Employee706,612-010706,LDP Participant,TX,68443,11,employee
+Employee707,612-010707,Admin,TX,73496,4,employee
+Employee708,612-010708,HR,NY,80000,4,employee
+Employee709,612-010709,Manager,CA,90000,8,employee
+Employee710,612-010710,LDP Participant,CA,71126,15,manager
+Employee711,612-010711,Admin,TX,69231,15,employee
+Employee712,612-010712,Support,NY,72147,19,employee
+Employee713,612-010713,Admin,NY,69863,5,employee
+Employee714,612-010714,Admin,NY,65543,12,employee
+Employee715,612-010715,HR,NY,80000,9,employee
+Employee716,612-010716,Admin,CA,71382,20,employee
+Employee717,612-010717,Admin,MN,67139,10,employee
+Employee718,612-010718,Admin,MN,67997,12,employee
+Employee719,612-010719,HR,CA,80000,6,employee
+Employee720,612-010720,Admin,NY,67255,0,manager
+Employee721,612-010721,LDP Participant,TX,72314,13,employee
+Employee722,612-010722,HR,NY,80000,16,employee
+Employee723,612-010723,Admin,NY,73645,3,employee
+Employee724,612-010724,Support,MN,68526,7,employee
+Employee725,612-010725,LDP Participant,NY,72075,14,employee
+Employee726,612-010726,Support,CA,73794,0,employee
+Employee727,612-010727,Support,CA,71011,7,employee
+Employee728,612-010728,Manager,CA,90000,20,employee
+Employee729,612-010729,Manager,CT,90000,11,employee
+Employee730,612-010730,HR,TX,80000,16,manager
+Employee731,612-010731,Manager,CT,90000,14,employee
+Employee732,612-010732,HR,CT,80000,7,employee
+Employee733,612-010733,HR,MN,80000,4,employee
+Employee734,612-010734,HR,CT,80000,12,employee
+Employee735,612-010735,Support,CT,66902,9,employee
+Employee736,612-010736,Support,NY,73671,9,employee
+Employee737,612-010737,Admin,CA,66187,16,employee
+Employee738,612-010738,Admin,NY,66770,4,employee
+Employee739,612-010739,HR,CA,80000,6,employee
+Employee740,612-010740,HR,TX,80000,19,manager
+Employee741,612-010741,HR,NY,80000,14,employee
+Employee742,612-010742,Manager,MN,90000,1,employee
+Employee743,612-010743,Manager,NY,90000,4,employee
+Employee744,612-010744,LDP Participant,CT,69865,2,employee
+Employee745,612-010745,Manager,MN,90000,15,employee
+Employee746,612-010746,LDP Participant,CT,72382,7,employee
+Employee747,612-010747,HR,CA,80000,1,employee
+Employee748,612-010748,Manager,MN,90000,0,employee
+Employee749,612-010749,LDP Participant,NY,72126,0,employee
+Employee750,612-010750,LDP Participant,NY,66618,0,HR
+Employee751,612-010751,HR,TX,80000,13,employee
+Employee752,612-010752,Manager,TX,90000,19,employee
+Employee753,612-010753,Admin,CT,68104,2,employee
+Employee754,612-010754,LDP Participant,MN,70781,6,employee
+Employee755,612-010755,LDP Participant,CT,67029,11,employee
+Employee756,612-010756,Manager,MN,90000,18,employee
+Employee757,612-010757,Support,MN,69615,16,employee
+Employee758,612-010758,Manager,NY,90000,11,employee
+Employee759,612-010759,LDP Participant,CA,73140,0,employee
+Employee760,612-010760,LDP Participant,CA,67934,18,manager
+Employee761,612-010761,LDP Participant,CA,74614,4,employee
+Employee762,612-010762,Manager,NY,90000,20,employee
+Employee763,612-010763,HR,TX,80000,0,employee
+Employee764,612-010764,Support,CT,71805,16,employee
+Employee765,612-010765,Manager,MN,90000,20,employee
+Employee766,612-010766,Support,MN,70675,7,employee
+Employee767,612-010767,Manager,TX,90000,11,employee
+Employee768,612-010768,Manager,CA,90000,15,employee
+Employee769,612-010769,HR,NY,80000,8,employee
+Employee770,612-010770,LDP Participant,CT,70832,3,manager
+Employee771,612-010771,LDP Participant,CA,73467,9,employee
+Employee772,612-010772,Manager,MN,90000,8,employee
+Employee773,612-010773,Admin,MN,73647,7,employee
+Employee774,612-010774,LDP Participant,CA,67652,0,employee
+Employee775,612-010775,Manager,TX,90000,14,employee
+Employee776,612-010776,Admin,MN,74424,0,employee
+Employee777,612-010777,Admin,NY,67553,12,employee
+Employee778,612-010778,LDP Participant,NY,69128,4,employee
+Employee779,612-010779,Support,CT,74606,12,employee
+Employee780,612-010780,Admin,TX,70307,1,manager
+Employee781,612-010781,LDP Participant,MN,66151,13,employee
+Employee782,612-010782,LDP Participant,NY,68323,11,employee
+Employee783,612-010783,Admin,CA,66258,16,employee
+Employee784,612-010784,HR,TX,80000,11,employee
+Employee785,612-010785,HR,CT,80000,9,employee
+Employee786,612-010786,Admin,TX,66546,3,employee
+Employee787,612-010787,Support,CT,69609,14,employee
+Employee788,612-010788,Admin,CA,65288,3,employee
+Employee789,612-010789,Admin,NY,69519,15,employee
+Employee790,612-010790,HR,MN,80000,11,manager
+Employee791,612-010791,Support,NY,71701,12,employee
+Employee792,612-010792,HR,NY,80000,19,employee
+Employee793,612-010793,HR,MN,80000,13,employee
+Employee794,612-010794,Support,CA,67839,10,employee
+Employee795,612-010795,Support,CA,67707,10,employee
+Employee796,612-010796,Admin,TX,65254,18,employee
+Employee797,612-010797,LDP Participant,NY,65505,6,employee
+Employee798,612-010798,Support,NY,69110,18,employee
+Employee799,612-010799,Admin,CT,67881,20,employee
+Employee800,612-010800,HR,CT,80000,18,HR
+Employee801,612-010801,Support,CT,70454,13,employee
+Employee802,612-010802,Manager,NY,90000,7,employee
+Employee803,612-010803,Support,CA,71437,8,employee
+Employee804,612-010804,LDP Participant,CT,65850,10,employee
+Employee805,612-010805,Manager,TX,90000,20,employee
+Employee806,612-010806,LDP Participant,NY,68357,17,employee
+Employee807,612-010807,HR,MN,80000,17,employee
+Employee808,612-010808,HR,CT,80000,6,employee
+Employee809,612-010809,Admin,MN,70523,7,employee
+Employee810,612-010810,HR,TX,80000,17,manager
+Employee811,612-010811,Manager,TX,90000,13,employee
+Employee812,612-010812,HR,CA,80000,13,employee
+Employee813,612-010813,Admin,CT,71533,8,employee
+Employee814,612-010814,HR,NY,80000,12,employee
+Employee815,612-010815,Manager,MN,90000,17,employee
+Employee816,612-010816,Manager,MN,90000,3,employee
+Employee817,612-010817,Support,MN,68795,7,employee
+Employee818,612-010818,HR,TX,80000,6,employee
+Employee819,612-010819,Admin,CA,65982,6,employee
+Employee820,612-010820,Support,TX,67014,17,manager
+Employee821,612-010821,HR,MN,80000,19,employee
+Employee822,612-010822,HR,CT,80000,17,employee
+Employee823,612-010823,LDP Participant,CA,68904,5,employee
+Employee824,612-010824,LDP Participant,NY,73769,7,employee
+Employee825,612-010825,Manager,CA,90000,13,employee
+Employee826,612-010826,Admin,CA,68904,14,employee
+Employee827,612-010827,LDP Participant,MN,66237,5,employee
+Employee828,612-010828,Support,CT,66058,9,employee
+Employee829,612-010829,HR,MN,80000,2,employee
+Employee830,612-010830,Support,CA,69582,11,manager
+Employee831,612-010831,Admin,NY,66018,19,employee
+Employee832,612-010832,Manager,NY,90000,19,employee
+Employee833,612-010833,Support,CA,68565,6,employee
+Employee834,612-010834,Admin,NY,70822,9,employee
+Employee835,612-010835,HR,TX,80000,15,employee
+Employee836,612-010836,LDP Participant,MN,73891,17,employee
+Employee837,612-010837,LDP Participant,CA,65919,16,employee
+Employee838,612-010838,Support,TX,73451,15,employee
+Employee839,612-010839,Support,MN,67760,5,employee
+Employee840,612-010840,HR,CT,80000,17,manager
+Employee841,612-010841,Admin,MN,69996,20,employee
+Employee842,612-010842,Admin,NY,70061,11,employee
+Employee843,612-010843,Support,NY,65935,1,employee
+Employee844,612-010844,Admin,CT,68439,19,employee
+Employee845,612-010845,Support,CA,71315,7,employee
+Employee846,612-010846,LDP Participant,CT,70726,1,employee
+Employee847,612-010847,Admin,CA,68135,12,employee
+Employee848,612-010848,Admin,TX,69659,13,employee
+Employee849,612-010849,HR,NY,80000,15,employee
+Employee850,612-010850,Support,NY,69572,10,HR
+Employee851,612-010851,HR,MN,80000,8,employee
+Employee852,612-010852,Manager,NY,90000,8,employee
+Employee853,612-010853,HR,CA,80000,16,employee
+Employee854,612-010854,LDP Participant,MN,69974,4,employee
+Employee855,612-010855,LDP Participant,CA,73028,11,employee
+Employee856,612-010856,Support,NY,70780,7,employee
+Employee857,612-010857,Manager,MN,90000,14,employee
+Employee858,612-010858,HR,CT,80000,13,employee
+Employee859,612-010859,Admin,TX,74927,10,employee
+Employee860,612-010860,LDP Participant,MN,74363,3,manager
+Employee861,612-010861,HR,CT,80000,7,employee
+Employee862,612-010862,LDP Participant,NY,74327,17,employee
+Employee863,612-010863,HR,NY,80000,2,employee
+Employee864,612-010864,Admin,NY,73681,7,employee
+Employee865,612-010865,LDP Participant,CT,68469,17,employee
+Employee866,612-010866,LDP Participant,TX,67384,6,employee
+Employee867,612-010867,Support,CT,73504,14,employee
+Employee868,612-010868,HR,CA,80000,15,employee
+Employee869,612-010869,HR,NY,80000,9,employee
+Employee870,612-010870,Manager,MN,90000,0,manager
+Employee871,612-010871,Support,CA,74512,5,employee
+Employee872,612-010872,Support,TX,72412,9,employee
+Employee873,612-010873,LDP Participant,CT,71062,19,employee
+Employee874,612-010874,Admin,MN,70713,0,employee
+Employee875,612-010875,Manager,TX,90000,4,employee
+Employee876,612-010876,Admin,CA,71417,16,employee
+Employee877,612-010877,HR,NY,80000,13,employee
+Employee878,612-010878,LDP Participant,CT,67314,16,employee
+Employee879,612-010879,LDP Participant,MN,73428,13,employee
+Employee880,612-010880,LDP Participant,MN,69434,3,manager
+Employee881,612-010881,Support,CA,70699,14,employee
+Employee882,612-010882,Support,MN,65293,17,employee
+Employee883,612-010883,LDP Participant,TX,72235,6,employee
+Employee884,612-010884,Admin,NY,74439,19,employee
+Employee885,612-010885,LDP Participant,MN,69675,19,employee
+Employee886,612-010886,LDP Participant,MN,70896,8,employee
+Employee887,612-010887,Manager,CA,90000,13,employee
+Employee888,612-010888,Support,TX,67586,7,employee
+Employee889,612-010889,HR,CT,80000,19,employee
+Employee890,612-010890,Admin,CT,69023,10,manager
+Employee891,612-010891,HR,TX,80000,1,employee
+Employee892,612-010892,Admin,CA,69785,8,employee
+Employee893,612-010893,Admin,CT,71913,17,employee
+Employee894,612-010894,Admin,CA,74437,12,employee
+Employee895,612-010895,Admin,TX,74589,20,employee
+Employee896,612-010896,Manager,CA,90000,12,employee
+Employee897,612-010897,Support,MN,70517,6,employee
+Employee898,612-010898,Support,CA,66432,15,employee
+Employee899,612-010899,LDP Participant,CA,66552,20,employee
+Employee900,612-010900,HR,CA,80000,15,HR
+Employee901,612-010901,HR,MN,80000,19,employee
+Employee902,612-010902,Support,TX,65180,15,employee
+Employee903,612-010903,Support,MN,66196,14,employee
+Employee904,612-010904,Support,TX,67075,5,employee
+Employee905,612-010905,Manager,NY,90000,8,employee
+Employee906,612-010906,HR,TX,80000,8,employee
+Employee907,612-010907,LDP Participant,MN,67634,4,employee
+Employee908,612-010908,LDP Participant,CT,74017,2,employee
+Employee909,612-010909,Admin,CA,72909,8,employee
+Employee910,612-010910,LDP Participant,MN,66067,12,manager
+Employee911,612-010911,Admin,MN,68824,1,employee
+Employee912,612-010912,Manager,TX,90000,12,employee
+Employee913,612-010913,LDP Participant,MN,72847,16,employee
+Employee914,612-010914,HR,CA,80000,17,employee
+Employee915,612-010915,LDP Participant,TX,71928,16,employee
+Employee916,612-010916,HR,NY,80000,18,employee
+Employee917,612-010917,Manager,MN,90000,18,employee
+Employee918,612-010918,LDP Participant,MN,71954,11,employee
+Employee919,612-010919,Manager,CT,90000,6,employee
+Employee920,612-010920,HR,NY,80000,11,manager
+Employee921,612-010921,HR,MN,80000,18,employee
+Employee922,612-010922,Manager,NY,90000,7,employee
+Employee923,612-010923,LDP Participant,CA,71979,7,employee
+Employee924,612-010924,Admin,CA,74411,18,employee
+Employee925,612-010925,LDP Participant,MN,67926,12,employee
+Employee926,612-010926,LDP Participant,TX,70696,16,employee
+Employee927,612-010927,Support,NY,73070,7,employee
+Employee928,612-010928,Manager,TX,90000,9,employee
+Employee929,612-010929,Support,CA,65370,20,employee
+Employee930,612-010930,Support,MN,74824,15,manager
+Employee931,612-010931,LDP Participant,NY,73206,19,employee
+Employee932,612-010932,Support,NY,68207,2,employee
+Employee933,612-010933,Admin,CT,67354,11,employee
+Employee934,612-010934,Admin,TX,66899,8,employee
+Employee935,612-010935,Support,TX,70987,18,employee
+Employee936,612-010936,Manager,MN,90000,9,employee
+Employee937,612-010937,Admin,NY,66953,8,employee
+Employee938,612-010938,Manager,TX,90000,20,employee
+Employee939,612-010939,Manager,NY,90000,18,employee
+Employee940,612-010940,LDP Participant,MN,72065,11,manager
+Employee941,612-010941,Manager,TX,90000,16,employee
+Employee942,612-010942,LDP Participant,MN,73759,1,employee
+Employee943,612-010943,Manager,CA,90000,16,employee
+Employee944,612-010944,HR,TX,80000,2,employee
+Employee945,612-010945,Support,TX,69287,13,employee
+Employee946,612-010946,HR,CT,80000,6,employee
+Employee947,612-010947,Support,CT,73444,14,employee
+Employee948,612-010948,HR,NY,80000,6,employee
+Employee949,612-010949,Support,NY,73108,3,employee
+Employee950,612-010950,Manager,CT,90000,15,HR
+Employee951,612-010951,Manager,TX,90000,14,employee
+Employee952,612-010952,LDP Participant,CT,73776,19,employee
+Employee953,612-010953,Admin,MN,74936,5,employee
+Employee954,612-010954,Manager,TX,90000,6,employee
+Employee955,612-010955,Admin,TX,72868,20,employee
+Employee956,612-010956,Support,NY,73633,14,employee
+Employee957,612-010957,LDP Participant,CA,72133,2,employee
+Employee958,612-010958,LDP Participant,TX,74286,10,employee
+Employee959,612-010959,Manager,NY,90000,4,employee
+Employee960,612-010960,Support,TX,65641,5,manager
+Employee961,612-010961,Manager,NY,90000,0,employee
+Employee962,612-010962,HR,CT,80000,0,employee
+Employee963,612-010963,Manager,NY,90000,8,employee
+Employee964,612-010964,HR,TX,80000,14,employee
+Employee965,612-010965,Support,CT,70549,0,employee
+Employee966,612-010966,LDP Participant,TX,66865,18,employee
+Employee967,612-010967,Admin,NY,66225,7,employee
+Employee968,612-010968,LDP Participant,CA,70556,19,employee
+Employee969,612-010969,Manager,NY,90000,5,employee
+Employee970,612-010970,HR,TX,80000,3,manager
+Employee971,612-010971,Manager,MN,90000,7,employee
+Employee972,612-010972,LDP Participant,TX,66734,12,employee
+Employee973,612-010973,HR,MN,80000,16,employee
+Employee974,612-010974,Support,TX,71000,14,employee
+Employee975,612-010975,HR,TX,80000,13,employee
+Employee976,612-010976,Support,CA,66739,15,employee
+Employee977,612-010977,LDP Participant,NY,71264,17,employee
+Employee978,612-010978,LDP Participant,CT,66056,12,employee
+Employee979,612-010979,Support,CT,71416,6,employee
+Employee980,612-010980,Support,MN,65117,18,manager
+Employee981,612-010981,Support,TX,67227,8,employee
+Employee982,612-010982,Admin,MN,71644,17,employee
+Employee983,612-010983,Support,CT,72935,2,employee
+Employee984,612-010984,LDP Participant,TX,67627,12,employee
+Employee985,612-010985,LDP Participant,MN,71967,13,employee
+Employee986,612-010986,HR,CA,80000,12,employee
+Employee987,612-010987,Support,MN,72314,13,employee
+Employee988,612-010988,Manager,CT,90000,9,employee
+Employee989,612-010989,Support,MN,72087,4,employee
+Employee990,612-010990,Manager,TX,90000,9,manager
+Employee991,612-010991,LDP Participant,MN,67730,6,employee
+Employee992,612-010992,LDP Participant,CT,66394,2,employee
+Employee993,612-010993,Admin,NY,66165,5,employee
+Employee994,612-010994,Support,CA,73545,13,employee
+Employee995,612-010995,Support,CA,70039,3,employee
+Employee996,612-010996,HR,CA,80000,19,employee
+Employee997,612-010997,HR,MN,80000,11,employee
+Employee998,612-010998,LDP Participant,CT,67952,20,employee
+Employee999,612-010999,LDP Participant,TX,74254,12,employee
