@@ -1,12 +1,25 @@
 form {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+}
+
+.salary-page-padding {
+  padding-top: 5%;
+  padding-inline: 20%;
+}
+
+.salary-page-padding *{
+  margin: 5px;
 }
 
 footer {
   align-items: baseline;
-  padding: 10px 20px;
+  position:fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 3vh 5vw;
+  color:#323438;
+  background-color: #dadbdb;
 }
 
 .header {
