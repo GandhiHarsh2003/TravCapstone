@@ -5,7 +5,25 @@ const User = require('../models/User');
 
 router.get('/', async (req, res) => {
     try {
-        const employees = await Employee.find({}, 'name jobRole workLocation phoneNumber');
+        const { userId } = req.query;
+        
+        if (!userId) {
+            return res.status(400).json({ message: 'userId query parameter is required' });
+        }
+        
+        const requestingUser = await User.findById(userId);
+        if (!requestingUser) {
+            return res.status(404).json({ message: 'Requesting user not found' });
+        }
+
+        let projectionFields;
+        
+        if (requestingUser.role === 'hr') {
+            projectionFields = 'name jobRole workLocation phoneNumber salary';
+        } else {
+            projectionFields = 'name jobRole workLocation phoneNumber';
+        }        
+        const employees = await Employee.find({}, projectionFields);
         res.json(employees);
     } catch (err) {
         res.status(500).json({ message: err.message });
