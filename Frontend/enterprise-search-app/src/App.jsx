@@ -15,15 +15,45 @@ import SalaryEstimate from './components/SalaryEstimate';
 import logo from './assets/Travelers Logo.png';
 import Login from './components/Login';
 import './Home.css'
+import DirectReports from './components/DirectReports';
 
-function App() {
+function AppContent() {
   const [user, setUser] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
-    const loggedInUser = localStorage.getItem('user');
-    if (loggedInUser) {
-      setUser(JSON.parse(loggedInUser));
+    try {
+      const loggedInUser = localStorage.getItem('user');
+      console.log('Checking localStorage for user data:', loggedInUser);
+      
+      if (loggedInUser) {
+        const parsedUser = JSON.parse(loggedInUser);
+        console.log('Parsed user data:', parsedUser);
+        setUser(parsedUser);
+      } else {
+        console.log('No user data found in localStorage');
+      }
+      
+    } catch (error) {
+      console.error('Error retrieving user data from localStorage:', error);
     }
+    
+    const handleStorageChange = (e) => {
+      if (e.key === 'user') {
+        console.log('Storage event detected for user:', e.newValue);
+        if (e.newValue) {
+          setUser(JSON.parse(e.newValue));
+        } else {
+          setUser(null);
+        }
+      }
+    };
+    
+    window.addEventListener('storage', handleStorageChange);
+    
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+    };
   }, []);
 
   const handleLogout = () => {
@@ -31,18 +61,21 @@ function App() {
     localStorage.removeItem('user');
     setUser(null);
     console.log('User logged out successfully');
+    navigate('/Login'); 
   };
 
   return (
-    <Router>
+    <>
       <header className="header">
         <Link className='link logo' to="/"><img className='header-logo' src={logo} alt="TRAVELERS" /></Link>
         <nav className="pages">
           {user ? (
             <>
               <span className="welcome-text">Welcome, {user.username.split('.')[0].charAt(0).toUpperCase() + user.username.split('.')[0].slice(1)}</span>
+              <Link className='link link-nav' to="/">Home</Link>
+              <Link className='link link-nav' to="/Employee">My Profile</Link>
+              <Link className='link link-nav' to="/DirectReports">My Direct Reports</Link>
               <Link className='link link-nav' to="/Salary_Estimate">Salary Estimate</Link>
-              <Link className='link link-nav' to="/Employee">Profile</Link>
               <button
                 className='link link-nav'
                 onClick={handleLogout}
@@ -62,20 +95,25 @@ function App() {
             <Link className='link link-nav' to="/Login">Login</Link>
           )}
         </nav>
-
       </header>
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/Login" element={user ? <Navigate to="/" /> : <Login />} />
-        <Route path="/Employee" element={<Employee />} />
-        <Route path="/SearchResults" element={<SearchResults />} />
-        <Route path="/Salary_Estimate" element={<SalaryEstimate />} />
+        <Route exact path="/" element={user ? <Home /> : <Navigate to="/Login" />} />
+        <Route path="/Login" element={user ? <Navigate to="/" /> : <Login setUser={setUser} />} />
+        <Route path="/Employee" element={user ? <Employee /> : <Navigate to="/Login" />} />
+        <Route path="/SearchResults" element={user ? <SearchResults /> : <Navigate to="/Login" />} />
+        <Route path="/Salary_Estimate" element={user ? <SalaryEstimate /> : <Navigate to="/Login" />} />
+        <Route path="/DirectReports" element={user ? <DirectReports /> : <Navigate to="/Login" />} />
       </Routes>
-      <footer>
-        &copy; 2049 The Travelers Indemnity Company. All rights reserved.
-      </footer>
-    </Router>
-  )
+    </>
+  );
 }
 
-export default App
+function App() {
+  return (
+    <Router>
+      <AppContent />
+    </Router>
+  );
+}
+
+export default App;

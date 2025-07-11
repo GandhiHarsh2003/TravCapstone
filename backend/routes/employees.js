@@ -122,30 +122,14 @@ router.get('/search/criteria', async (req, res) => {
     }
 });
 
-// http://localhost:5000/api/employees/manager/:managerId?userId=<valid-user-id>
 router.get('/manager/:managerId', async (req, res) => {
     try {
         const managerId = req.params.managerId;
-        const { userId } = req.query;
-
-        if (!userId) {
-            return res.status(403).send({ message: "User ID not provided!" });
-        }
-
-        const requestingUser = await User.findById(userId);
-        if (!requestingUser) {
-            return res.status(404).json({ message: 'Requesting user not found' });
-        }
-
+        
         const mongoose = require('mongoose');
         const objectId = new mongoose.Types.ObjectId(managerId);
 
-        const isAuthorized = (requestingUser.employeeId &&
-            requestingUser.employeeId.toString() === managerId) ||
-            requestingUser.role === 'hr';
-
-        const employees = await Employee.find({ managerId: objectId })
-            .select(isAuthorized ? '' : '-salary');
+        const employees = await Employee.find({ managerId: objectId });
 
         res.json(employees);
     } catch (err) {
@@ -153,5 +137,6 @@ router.get('/manager/:managerId', async (req, res) => {
         res.status(500).json({ message: 'Server Error' });
     }
 });
+
 
 module.exports = router;

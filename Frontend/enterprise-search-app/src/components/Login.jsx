@@ -10,7 +10,7 @@ import {
   Alert
 } from '@mui/material';
 
-function Login() {
+function Login({ setUser }) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -45,7 +45,7 @@ function Login() {
       };
       
       localStorage.setItem('user', JSON.stringify(userData));
-      
+      setUser(userData);
       console.log('User data stored in localStorage:', userData);
 
       navigate('/');
