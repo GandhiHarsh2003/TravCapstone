@@ -18,7 +18,7 @@ router.get('/', async (req, res) => {
 
         let projectionFields;
         
-        if (requestingUser.role === 'hr') {
+        if (requestingUser.role === 'HR') {
             projectionFields = 'name jobRole workLocation phoneNumber salary';
         } else {
             projectionFields = 'name jobRole workLocation phoneNumber';
@@ -50,7 +50,7 @@ router.get('/:id', async (req, res) => {
             return res.status(404).json({ message: 'Employee not found' });
         }
 
-        if (requestingUser.role === 'hr') {
+        if (requestingUser.role === 'HR') {
             return res.json(employee);
         }
 
@@ -109,7 +109,7 @@ router.get('/search/criteria', async (req, res) => {
             query.workLocation = { $regex: workLocation, $options: 'i' };
         }
 
-        if (requestingUser.role === 'hr') {
+        if (requestingUser.role === 'HR') {
             const employees = await Employee.find(query);
             return res.json(employees);
         }
