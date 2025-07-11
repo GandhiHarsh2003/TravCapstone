@@ -3,15 +3,21 @@ import React, { useState } from "react";
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
+import Typography from '@mui/material/Typography';
+import CircularProgress from '@mui/material/CircularProgress';
 
 const SalaryEstimate = () => {
-    const [role, setRole] = React.useState("Admin");
-    const [location, setLocation] = React.useState("CA");
+    const [role, setRole] = useState("Admin");
+    const [location, setLocation] = useState("CA");
+    const [salary, setSalary] = useState(0);
+    const [loading, setLoading] = useState(false);
     const route = "http://localhost:5000/api/predict/";
-    const [salary, setSalary] = React.useState(0);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        setLoading(true);
+        setSalary(0);
+
         const submission = {
             jobRole: role,
             location: location
@@ -30,24 +36,19 @@ const SalaryEstimate = () => {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             const data = await response.json();
-            console.log(data);
             setSalary(data.salary);
-            // Handle post submission logic (like showing a success message)
         } catch (error) {
             console.error("Error posting data", error);
-            // Handle errors here
+        } finally {
+            setLoading(false);
         }
     };
 
     return (
         <div className="salary-page-padding">
-            <h1>
-                Estimate your salary.
-            </h1>
-            <label>
-                Warning: This is only an estimate.
-            </label>
-            <form className="form" onSubmit={(e) => handleSubmit(e)}>
+            <h1>Estimate your salary.</h1>
+            <label>Warning: This is only an estimate.</label>
+            <form className="form" onSubmit={handleSubmit}>
                 <InputLabel id="role-label">Role</InputLabel>
                 <Select
                     labelId="role-label"
@@ -61,26 +62,37 @@ const SalaryEstimate = () => {
                     <MenuItem value={"LDP Participant"}>LDP Participant</MenuItem>
                     <MenuItem value={"Manager"}>Manager</MenuItem>
                     <MenuItem value={"Support"}>Support</MenuItem>
-
                 </Select>
-                <InputLabel id="role-label">Location</InputLabel>
+
+                <InputLabel id="location-label">Location</InputLabel>
                 <Select
-                    labelId="role-label"
+                    labelId="location-label"
                     id="location"
                     value={location}
                     label="Location"
                     onChange={(event) => setLocation(event.target.value)}
                 >
-                    ['NY', 'CA', 'MN', 'TX', "CT"]
                     <MenuItem value={"CA"}>California</MenuItem>
-                    <MenuItem value={"CT"}>Conneticut</MenuItem>
+                    <MenuItem value={"CT"}>Connecticut</MenuItem>
                     <MenuItem value={"MN"}>Minnesota</MenuItem>
                     <MenuItem value={"NY"}>New York</MenuItem>
-                    <MenuItem value={"T"}>Texas</MenuItem>
+                    <MenuItem value={"TX"}>Texas</MenuItem>
                 </Select>
+
                 <Button type="submit">Submit</Button>
             </form>
-            <h1>Your predicted salary is ${salary}.</h1>
+
+            {loading && (
+                <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
+                    <CircularProgress sx={{ color: 'black' }} />
+                </div>
+            )}
+
+            {!loading && salary > 0 && (
+                <Typography variant="h4" align="center" fontWeight="bold" color="black" sx={{ mt: 4 }}>
+                    Your predicted salary is ${Math.round(salary).toLocaleString()}.
+                </Typography>
+            )}
         </div>
     );
 };
