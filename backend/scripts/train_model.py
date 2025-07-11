@@ -20,5 +20,15 @@ print(f"MAE: {mean_absolute_error(y_test, y_pred)}")
 print(f"MSE: {mean_squared_error(y_test, y_pred)}")
 print(f"R-squared: {r2_score(y_test, y_pred)}")
 
+
+
 with open('model.pkl', 'wb') as f:
-    pickle.dump((model, X.columns.tolist(), f))
+    pickle.dump((model, X.columns.tolist()), f)
+
+# custom test
+
+sample_input = pd.DataFrame([{'jobRole': 'Manager', 'location': 'SF'}])
+sample_X = pd.get_dummies(sample_input)
+sample_X = sample_X.reindex(columns=X.columns, fill_value=0)
+sample_salary = model.predict(sample_X)[0]
+print("predicted salary: ", sample_salary)
