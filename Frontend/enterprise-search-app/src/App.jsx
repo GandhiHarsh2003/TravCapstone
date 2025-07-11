@@ -71,7 +71,8 @@ function AppContent() {
         <nav className="pages">
           {user ? (
             <>
-              <span className="welcome-text">Welcome, {user.username.split('.')[0].charAt(0).toUpperCase() + user.username.split('.')[0].slice(1)}</span>
+              <span className="welcome-text">Welcome, {user.username.split('.')[0].charAt(0).toUpperCase() 
+              + user.username.split('.')[0].slice(1, -1) + " " + user.username.split('.')[0].slice(-1).toUpperCase()}</span>
               <Link className='link link-nav' to="/">Home</Link>
               <Link className='link link-nav' to="/Employee">My Profile</Link>
               <Link className='link link-nav' to="/DirectReports">My Direct Reports</Link>
