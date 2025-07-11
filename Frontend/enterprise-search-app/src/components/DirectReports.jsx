@@ -47,7 +47,7 @@ export default function DirectReports() {
                                 <div className="employee-info">
                                     <h3>{employee.name}</h3>
                                     <p className="employee-status">Employee</p>
-                                    <p className="employee-role">${employee.salary}</p>
+                                    <p className="employee-salary">${employee.salary.toLocaleString()}</p>
                                     <p className="employee-role">{employee.jobRole}</p>
                                     <p className="employee-location">{employee.workLocation}</p>
                                     <p className="employee-phone">{employee.phoneNumber}</p>

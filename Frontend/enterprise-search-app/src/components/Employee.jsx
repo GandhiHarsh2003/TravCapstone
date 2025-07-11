@@ -37,36 +37,60 @@ const Employee = () => {
     }, []);
 
     return (
-        <div className="home-container">
-            <div className="employees-section">
-                <h2>My Profile</h2>
-                {loading ? (
-                    <p>Loading profile data...</p>
-                ) : error ? (
-                    <p className="error-message">{error}</p>
-                ) : employee ? (
-                    <div className="employee-cards">
-                        <div className="employee-card">
-                            <div className="profile-image">
-                                <div className="image-placeholder">
-                                    {employee.name.charAt(0)}
+        <>
+            <style>
+                {`
+                    .profile-section {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                    }
+                    
+                    .profile-heading {
+                        text-align: center;
+                    }
+                    
+                    .profile-card-container {
+                        display: flex;
+                        justify-content: center;
+                        width: 100%;
+                    }
+                `}
+            </style>
+            
+            <div className="home-container">
+                <div className="employees-section profile-section">
+                    <h2 className="profile-heading">My Profile</h2>
+                    {loading ? (
+                        <p>Loading profile data...</p>
+                    ) : error ? (
+                        <p className="error-message">{error}</p>
+                    ) : employee ? (
+                        <div className="profile-card-container">
+                            <div className="employee-card">
+                                <div className="profile-image">
+                                    <div className="image-placeholder">
+                                        {employee.name.charAt(0)}
+                                    </div>
+                                </div>
+                                <div className="employee-info">
+                                    <h3>{employee.name}</h3>
+                                    <p className="employee-status">Employee</p>
+                                    <p className="employee-salary">${employee.salary.toLocaleString()}</p>
+                                    <p className="employee-role">{employee.jobRole}</p>
+                                    <p className="employee-location">{employee.workLocation}</p>
+                                    <p className="employee-phone">{employee.phoneNumber}</p>
                                 </div>
                             </div>
-                            <div className="employee-info">
-                                <h3>{employee.name}</h3>
-                                <p className="employee-status">Employee</p>
-                                <p className="employee-role">${employee.salary}</p>
-                                <p className="employee-role">{employee.jobRole}</p>
-                                <p className="employee-location">{employee.workLocation}</p>
-                                <p className="employee-phone">{employee.phoneNumber}</p>
-                            </div>
                         </div>
-                    </div>
-                ) : (
-                    <p>No employee data found.</p>
-                )}
+                    ) : (
+                        <p>No employee data found.</p>
+                    )}
+                </div>
             </div>
-        </div>
+        </>
     );
 };
 

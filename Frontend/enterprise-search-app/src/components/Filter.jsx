@@ -25,7 +25,7 @@ const Filter = ({ onFilterChange }) => {
     const [jobRole, setJobRole] = useState('');
     const [workLocations, setWorkLocations] = useState([]);
     
-    const locationOptions = ['Hartford', 'St. Paul', 'Remote'];
+    const locationOptions = ['Hartford', 'Saint Paul', 'Remote'];
     
     const handleNameChange = (event) => {
         setName(event.target.value);
@@ -255,7 +255,7 @@ const Filter = ({ onFilterChange }) => {
                         Clear
                     </Button>
                     <Button 
-                        variant="contained" 
+                        variant="outlined" 
                         onClick={handleApplyFilters}
                         startIcon={<SearchIcon />}
                         sx={{
@@ -264,10 +264,6 @@ const Filter = ({ onFilterChange }) => {
                             textTransform: 'none',
                             fontWeight: 500,
                             color: 'black',
-                            background: 'linear-gradient(to bottom, #ec7878, #ffffff)',
-                            '&:hover': {
-                                background: 'linear-gradient(to bottom, #d65a5a, #f0f0f0)',
-                            }
                         }}
                     >
                         Apply

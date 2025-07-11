@@ -6,7 +6,8 @@ import {
   Routes,
   Link,
   Navigate,
-  useNavigate
+  useNavigate,
+  useLocation
 } from "react-router-dom";
 import Home from './components/Home';
 import Employee from './components/Employee';
@@ -20,6 +21,7 @@ import DirectReports from './components/DirectReports';
 function AppContent() {
   const [user, setUser] = useState(null);
   const navigate = useNavigate();
+  const location = useLocation(); 
 
   useEffect(() => {
     try {
@@ -64,8 +66,23 @@ function AppContent() {
     navigate('/Login'); 
   };
 
+  const isActive = (path) => {
+    return location.pathname === path;
+  };
+
+  const activeLinkStyle = {
+    color: 'red'
+  };
+
   return (
     <>
+      <style>
+        {`
+          .active-link {
+            color: red !important;
+          }
+        `}
+      </style>
       <header className="header">
         <Link className='link logo' to="/"><img className='header-logo' src={logo} alt="TRAVELERS" /></Link>
         <nav className="pages">
@@ -73,10 +90,30 @@ function AppContent() {
             <>
               <span className="welcome-text">Welcome, {user.username.split('.')[0].charAt(0).toUpperCase() 
               + user.username.split('.')[0].slice(1, -1) + " " + user.username.split('.')[0].slice(-1).toUpperCase()}</span>
-              <Link className='link link-nav' to="/">Home</Link>
-              <Link className='link link-nav' to="/Employee">My Profile</Link>
-              <Link className='link link-nav' to="/DirectReports">My Direct Reports</Link>
-              <Link className='link link-nav' to="/Salary_Estimate">Salary Estimate</Link>
+              <Link 
+                className={`link link-nav ${isActive('/') ? 'active-link' : ''}`} 
+                to="/"
+              >
+                Home
+              </Link>
+              <Link 
+                className={`link link-nav ${isActive('/Employee') ? 'active-link' : ''}`} 
+                to="/Employee"
+              >
+                My Profile
+              </Link>
+              <Link 
+                className={`link link-nav ${isActive('/DirectReports') ? 'active-link' : ''}`} 
+                to="/DirectReports"
+              >
+                My Direct Reports
+              </Link>
+              <Link 
+                className={`link link-nav ${isActive('/Salary_Estimate') ? 'active-link' : ''}`} 
+                to="/Salary_Estimate"
+              >
+                Salary Estimate
+              </Link>
               <button
                 className='link link-nav'
                 onClick={handleLogout}
@@ -93,7 +130,12 @@ function AppContent() {
               </button>
             </>
           ) : (
-            <Link className='link link-nav' to="/Login">Login</Link>
+            <Link 
+              className={`link link-nav ${isActive('/Login') ? 'active-link' : ''}`} 
+              to="/Login"
+            >
+              Login
+            </Link>
           )}
         </nav>
       </header>
