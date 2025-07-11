@@ -7,12 +7,13 @@ import Select from '@mui/material/Select';
 const SalaryEstimate = () => {
     const [role, setRole] = React.useState("Admin");
     const [location, setLocation] = React.useState("CA");
-    const route = "";
+    const route = "http://localhost:5000/api/predict/";
+    const [salary, setSalary] = React.useState(0);
 
-    const handleSubmit = async () => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         const submission = {
-            role: role,
+            jobRole: role,
             location: location
         };
 
@@ -28,9 +29,9 @@ const SalaryEstimate = () => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
-
             const data = await response.json();
             console.log(data);
+            setSalary(data.salary);
             // Handle post submission logic (like showing a success message)
         } catch (error) {
             console.error("Error posting data", error);
@@ -46,7 +47,7 @@ const SalaryEstimate = () => {
             <label>
                 Warning: This is only an estimate.
             </label>
-            <form className="form" onSubmit={handleSubmit}>
+            <form className="form" onSubmit={(e) => handleSubmit(e)}>
                 <InputLabel id="role-label">Role</InputLabel>
                 <Select
                     labelId="role-label"
@@ -79,6 +80,7 @@ const SalaryEstimate = () => {
                 </Select>
                 <Button type="submit">Submit</Button>
             </form>
+            <h1>Your predicted salary is ${salary}.</h1>
         </div>
     );
 };

@@ -13,7 +13,9 @@ mongoose.connect(process.env.MONGO_URI)
 
 const employeeRoutes = require('./routes/employees');
 const authRoutes = require('./routes/auth.routes');
+const salaryRoutes = require('./routes/salaryPredict');
 
+app.use('/api/predict', salaryRoutes);
 app.use('/api/employees', employeeRoutes);
 app.use('/api/auth', authRoutes); 
 

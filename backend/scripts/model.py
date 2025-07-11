@@ -5,7 +5,7 @@ data = json.loads(sys.stdin.read())
 job_role = data['jobRole']
 location = data['location']
 
-with open('model.pkl', 'rb') as f:
+with open('./scripts/model.pkl', 'rb') as f:
     model, feature_columns = pickle.load(f)
 
 input_df = pd.DataFrame([{'jobRole': job_role, 'location': location}])
