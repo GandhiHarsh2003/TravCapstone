@@ -7,7 +7,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect(process.env.MONGO_URI)
+const uri = "mongodb+srv://ccheng:jZREdOAK4r16GRnq@trav-enterprise-directo.vl64bl0.mongodb.net/Directory-Database?retryWrites=true&w=majority&appName=Trav-Enterprise-Directory";
+mongoose.connect(uri)
   .then(() => console.log('MongoDB Connected'))
   .catch(err => console.log('MongoDB Connection Error:', err));
 
