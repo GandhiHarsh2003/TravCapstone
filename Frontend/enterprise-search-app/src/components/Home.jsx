@@ -89,7 +89,7 @@ const Home = () => {
                                     <div className="employee-info">
                                         <h3>{employee.name}</h3>
                                         <p className="employee-status">Employee</p>
-                                        {userData.role === "hr" && employee.salary !== undefined && (
+                                        {userData.role === "HR" && employee.salary !== undefined && (
                                             <p className="employee-salary">${employee.salary.toLocaleString()}</p>
                                         )}
                                         <p className="employee-role">{employee.jobRole}</p>

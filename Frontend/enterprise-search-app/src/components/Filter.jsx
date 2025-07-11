@@ -140,7 +140,7 @@ const Filter = ({ onFilterChange }) => {
                                         minWidth: '24px', 
                                         height: '20px',
                                         background: 'linear-gradient(to bottom, #ec7878, #ffffff)',
-                                        color: 'white'
+                                        color: 'black'
                                     }}
                                 />
                             )}
@@ -214,7 +214,7 @@ const Filter = ({ onFilterChange }) => {
                                         minWidth: '24px', 
                                         height: '20px',
                                         background: 'linear-gradient(to bottom, #ec7878, #ffffff)',
-                                        color: 'white'
+                                        color: 'black'
                                     }}
                                 />
                             )}
